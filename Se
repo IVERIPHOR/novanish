@@ -290,6 +290,35 @@ hence{0$
 
         Se
 
+!UMLAUT! isFAMOUS:[BINDINGS]
+{_NOW}:[NONE]:(&)
+[Status_sFAMOUS]POP. 1
+   if (isFAMOUS)
+    [then_sFAMOUS]POP. 1
+IF AND ONLY IF {Y} UMLAUT then try(kill)
+if: {Y} UMLAUT
+   isFamous has Privacy.
+VANISH NO VANISH JUTSU VANISH isFAMOUS % _sFamous
+!&"is Famous BINDINGS" try(kill) 
+""****-****""
+While_this-try(kill):POP. 1
+'end user'); {&& }
+
+!UMLAUT! isFAMOUS:[BINDINGS]
+{_NOW}:[NONE]:(&)
+[Status_sFAMOUS]POP. 0
+   if (isFAMOUS)
+    [then_sFAMOUS]POP. 0
+IF AND ONLY IF {Y} UMLAUT then try(kill)
+if: {Y} UMLAUT
+   isFamous has Privacy.
+VANISH NO VANISH JUTSU VANISH isFAMOUS % _sFamous
+!&"is Famous BINDINGS" try(kill) 
+""****-****""
+While_this-try(kill):POP. 0
+'end user'); {&& }
+
+       Se
 
 
 
